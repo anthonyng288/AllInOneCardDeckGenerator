@@ -42,7 +42,7 @@ async function addToS3AndRedis(themeCards, cardKey){
     //Add to Redis
     await redisClient.setEx(
         cardKey,
-        3600,
+        300,
         JSON.stringify({ source: "Redis Cache", themeCards })
     );
     console.log(`Successfully uploaded data to redis ${cardKey}`);
@@ -56,7 +56,7 @@ async function getFromS3(s3Params, cardKey){
   // Add to redis
   await redisClient.setEx(
     cardKey,
-    3600,
+    300,
     JSON.stringify({ source: "Redis Cache", ...jsonThemeCards })
   );
   console.log("Getting cards from the S3 Cache");
