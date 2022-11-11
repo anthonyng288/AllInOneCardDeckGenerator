@@ -6,7 +6,7 @@ Using the Flickr API to provide the images and the Sharp JS library to composite
 
 Also uses the Redis cache to cache the images within memory.
 
-![Homepage](https://drive.google.com/file/d/1y_yCh5VDX-HwiHon6xAXcZqkFIRfqxv5/view?usp=sharing)
+![Homepage](https://github.com/anthonyng288/CloudProj/blob/main/Screenshot%20from%202022-11-09%2020-25-18.png)
 
 
 
