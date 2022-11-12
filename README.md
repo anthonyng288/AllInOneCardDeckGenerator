@@ -6,9 +6,9 @@ Using the Flickr API to provide the images and the Sharp JS library to composite
 
 Also uses the Redis cache to cache the images within memory.
 
-![Homepage](https://github.com/anthonyng288/CloudProj/blob/main/Screenshot%20from%202022-11-09%2020-25-18.png)
+![Homepage](https://github.com/anthonyng288/AllInOneCardDeckGenerator/blob/main/photos/Screenshot%20from%202022-11-09%2020-25-18.png)
 
-![Card Page](https://github.com/anthonyng288/CloudProj/blob/main/Screenshot%20from%202022-11-09%2020-42-49.png)
+![Card Page](https://github.com/anthonyng288/AllInOneCardDeckGenerator/blob/main/photos/Screenshot%20from%202022-11-09%2020-42-49.png)
 
 
 
