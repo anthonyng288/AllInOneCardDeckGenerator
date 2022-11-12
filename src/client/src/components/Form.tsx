@@ -8,8 +8,7 @@ interface AppProps {
   setTheme: Dispatch<SetStateAction<string>>;
 }
 const Form = (props: AppProps) => {
-  const url =
-    'da-cardgenerator-v5-lb-760600191.ap-southeast-2.elb.amazonaws.com';
+  const url = 'http://localhost:4000';
   const navigate = useNavigate();
   const [progressBar, setProgressBar] = useState(<p></p>);
   const [errMes, setErrMes] = useState('');
